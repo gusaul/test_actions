@@ -11,4 +11,4 @@ jobs:
     env:
       TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-    - uses: gusaul/check-skip-staging@1.0.0
+    - uses: jessfraz/branch-cleanup-action@master

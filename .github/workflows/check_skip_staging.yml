@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  check-skip-staging:
+  execute:
     runs-on: ubuntu-latest
     env:
       TOKEN: ${{ secrets.GITHUB_TOKEN }}
